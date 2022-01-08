@@ -57,3 +57,30 @@ omp_set_num_threads() - takes an integer argument and requests that the Operatin
 *SCENARIO – III* : Write an OpenMP  program  to find the Max and  Min elements in a list of numbers using OpenMP Critical clause to understand. &nbsp;
 ->[Code](https://github.com/ishanjogalekar/Parallel-distributed-computing-programs/blob/main/Programs/reduction_arr2.c) </br>
 [**PDF of question**](https://github.com/ishanjogalekar/Parallel-distributed-computing-programs/blob/main/PDFs/19BCE2250%20DA%203.pdf) </br>
+
+4. Write a simple OpenMP program to demonstrate Arithmetic Operation using Section Clause. </br>
+->[Code](https://github.com/ishanjogalekar/Parallel-distributed-computing-programs/blob/main/Programs/reduction_arithmetic.c)   &nbsp;   [PDF](https://github.com/ishanjogalekar/Parallel-distributed-computing-programs/blob/main/PDFs/19BCE2250%20DA%204.pdf) </br> 
+
+5. Write a simple OpenMP program to demonstrate the use of pattern generation in schedule clause. </br>
+-Static Approch   &nbsp;    [Code](https://github.com/ishanjogalekar/Parallel-distributed-computing-programs/blob/main/Programs/Star_Static.c) </br>
+-Dynamic Approch   &nbsp;    [Code](https://github.com/ishanjogalekar/Parallel-distributed-computing-programs/blob/main/Programs/Star_Dynamic.c) </br>
+[PDF](https://github.com/ishanjogalekar/Parallel-distributed-computing-programs/blob/main/PDFs/19BCE2250%20DA%205.pdf) </br>
+
+6. Consider a suitable instance that has MPI routines to assign different tasks to different processors. </br>
+[Code](https://github.com/ishanjogalekar/Parallel-distributed-computing-programs/blob/main/Programs/MPI_Simple.c)   &nbsp;   [PDF](https://github.com/ishanjogalekar/Parallel-distributed-computing-programs/blob/main/PDFs/19BCE2250%20DA%206.pdf) </br>
+
+7. Consider the following program, called mpi_sample1.c. This program is written in C with MPI commands included. The new MPI calls are to MPI_Send and MPI_Recv and to 
+MPI_Get_processor_name. The latter is a convenient way to get the name of the processor on which a process is running. MPI_Send and MPI_Recv can be understood by stepping back and considering the two requirements that must be satisfied to communicate data between two processes: </br>
+1.Describe the data to be sent or the location in which to receive the data  
+2.Describe the destination (for a send) or the source (for a receive) of the data. </br>
+[Code](https://github.com/ishanjogalekar/Parallel-distributed-computing-programs/blob/main/Programs/MPI_Send_Receive.c)   &nbsp;   [PDF](https://github.com/ishanjogalekar/Parallel-distributed-computing-programs/blob/main/PDFs/19BCE2250%20DA%207%20.pdf) </br>
+
+8. Write a ‘C’ program to initialize the communication pattern of a broadcast. The code logic can typically have a process zero [as root], which has the initial copy of the data to broadcast to other processes. </br>
+[Code](https://github.com/ishanjogalekar/Parallel-distributed-computing-programs/blob/main/Programs/MPI_Bcast.c)   &nbsp;   [PDF](https://github.com/ishanjogalekar/Parallel-distributed-computing-programs/blob/main/PDFs/19BCE2250%20DA%208.pdf) </br>
+
+9. Write a C program to use MPI_Reduce that divides the processors into the group to find the addition independently. </br>
+[Code](https://github.com/ishanjogalekar/Parallel-distributed-computing-programs/blob/main/Programs/MPI_Reduce.c)   &nbsp;   [PDF](https://github.com/ishanjogalekar/Parallel-distributed-computing-programs/blob/main/PDFs/19BCE2250%20DA%209.pdf) </br>
+
+10. Assume the variable rank contains the process rank and root is 3. What will be stored in array "b []" on each of four processes if each executes the following code fragment. </br>
+[Code](https://github.com/ishanjogalekar/Parallel-distributed-computing-programs/blob/main/Programs/MPI_Gather.c)   &nbsp;   [PDF](https://github.com/ishanjogalekar/Parallel-distributed-computing-programs/blob/main/PDFs/19BCE2250%20DA%2010.pdf) </br>
+
