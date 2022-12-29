@@ -82,7 +82,7 @@ MPI_Get_processor_name. The latter is a convenient way to get the name of the pr
 9. Write a C program to use MPI_Reduce that divides the processors into the group to find the addition independently. </br>
 [Code](https://github.com/ishanjogalekar/Parallel-distributed-computing-programs/blob/main/Programs/MPI_Reduce.c)   &nbsp;   [PDF](https://github.com/ishanjogalekar/Parallel-distributed-computing-programs/blob/main/PDFs/19BCE2250%20DA%209.pdf) </br>
 
-10. Assume the variable rank contains the process rank and root is 3. What will be stored in array "b []" on each of four processes if each executes the following code fragment. </br>
+10. Assume the variable rank contains the process rank and root is 3. What will be stored in array "b[ ]" on each of four processes if each executes the following code fragment. </br>
 [Code](https://github.com/ishanjogalekar/Parallel-distributed-computing-programs/blob/main/Programs/MPI_Gather.c)   &nbsp;   [PDF](https://github.com/ishanjogalekar/Parallel-distributed-computing-programs/blob/main/PDFs/19BCE2250%20DA%2010.pdf) </br>
 
 11. Write a ‘C’ Program to initialize  an  array  of  100  elements  in  order  to  perform  the  sum  of the elements sharing the load among 4 processes using MPI Send and MPI Recv operation.*Lab CAT2 Exam* </br>
